@@ -11,16 +11,16 @@ function addToUp(n) {
 
 console.time(addToUp(6));
 console.log(addToUp(6));
-console.timeEnd(addToUp(6))
+console.timeEnd(addToUp(6));
 
 // example 2
 function addToUp2(n) {
-  return n * (n + 1) / 2;
+  return (n * (n + 1)) / 2;
 }
 
 console.time(addToUp2(6));
 console.log(addToUp2(6));
-console.timeEnd(addToUp2(6))
+console.timeEnd(addToUp2(6));
 
 /**
   question
